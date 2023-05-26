@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> My Project </title>
+        <style>
+            .ashik::before{
+                content: "a";
+                color: #c0171777;
+            }
+            body{
+                counter-reset: section;
+            }
+            p::before{
+                counter-increment: section;
+                content: "as" counter(section) ":";
+                
+
+            }
+        </style>
+    </head>
+        <body>
+            <h1>My Name is Ashik</h1>
+            <h1 class="ashik" >asd</h1>
+            <h1 class="ashik" >sddf</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum assumenda eius laboriosam, eos nihil earum, quasi reprehenderit incidunt qui quidem rem sunt perferendis odio! Labore.</p>
+            <input name="email" type="text">
+            <br>
+            <input name="password" type="text">
+            <ul type="circecl" >
+                <li>asid</li>
+                <li>asd</li>
+            </ul>
+            <ol type="a" >
+                <li>ads</li>
+                <li>dsa</li>
+            </ol>
+            <p>asddaf</p>
+            <p>asddaf</p>
+            <p>asddaf</p>
+            <p>asddaf</p>
+            <p>asddaf</p>
+            <p>asddaf</p>
+            <p>asddaf</p>
+
+        </body>
+
+</html>
